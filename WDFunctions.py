@@ -163,6 +163,7 @@ def WeeklyDeathsByRegion(source_tabs):
             }
         )
         
+    PreviousWeekV4Checker(output_file, df)
     df.to_csv(output_file, index=False)
 
 def WeeklyDeathsByAgeSex(source_tabs):
@@ -255,6 +256,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
             }
         )
     
+    PreviousWeekV4Checker(output_file, df)
     df.to_csv(output_file, index=False)
     SparsityFiller(output_file, 'x')
 
@@ -309,11 +311,60 @@ def WeeklyDeathsByLA_HB(registration_tab, occurrence_tab, year):
 
     df_la['geography'] = df_la['admin-geography'].apply(AdminGeogLabels)
     
+    PreviousWeekV4Checker(output_file_hb, df_hb)
+    PreviousWeekV4Checker(output_file_la, df_la)
+    
     df_hb.to_csv(output_file_hb, index=False)
     df_la.to_csv(output_file_la, index=False)
     
     SparsityFiller(output_file_hb)
     SparsityFiller(output_file_la)
+    
+def PreviousWeekV4Checker(file, new_df):
+    df = pd.read_csv(file, dtype=str)
+    
+    print('Quick comparison check on {}'.format(file.split('/')[-1]))
+    
+    # checking both columns are the same -> ignoring v4 and data marking cols
+    df_cols = [col for col in df.columns if '4' not in col and 'Data Marking' not in col]
+    new_df_cols = [col for col in new_df.columns if '4' not in col and 'Data Marking' not in col]
+    
+    if df_cols != new_df_cols:
+        raise Exception('Columns for {} do not match previous v4 columns'.format(file.split('/'[-1])))
+        
+    # check week number has increased by 1
+    max_week_number = int(df['week-number'].unique()[-1].split('-')[-1])
+    new_max_week_number = int(new_df['week-number'].unique()[-1].split('-')[-1])
+    
+    if new_max_week_number - max_week_number != 1:
+        if new_max_week_number == 1:
+            print('New v4 looks like week 1 of data, ignore if this is true')
+        else:
+            raise Exception(
+                    'Difference between week numbers is not correct\n'
+                    'Previous week goes up to {}\n'
+                    'New week goes up to {}'.format(max_week_number, new_max_week_number)
+                    )
+    
+    # check on the year of data
+    if df['time'].unique()[0] != new_df['time'].unique():
+        print('Year of data does not match.. okay if this is week 1')
+        
+    # check the length of dimensions -> excluding week number
+    for col in [col for col in df_cols if 'week' not in col][::2]:
+        if df[col].unique().size != new_df[col].unique().size:
+            if df[col].unique().size > new_df[col].unique().size:
+                print('Previous v4 has more options in {}'.format(col))
+            else:
+                print('New v4 has more options in {}'.format(col))
+            
+    # check length of v4's
+    if len(new_df) < len(df):
+        if new_max_week_number != 1:
+            raise Exception('New v4 is not longer than previous v4')
+            
+    print('All ok')
+            
 
     
 
