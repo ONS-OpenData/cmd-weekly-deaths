@@ -140,6 +140,7 @@ def WeeklyDeathsByRegion(source_tabs):
     
     # excluding the year to date figures
     df = df[df['week_ended'] != 'Year to date']
+    df = df[df['week_number'] != 'Weeks']
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
@@ -222,6 +223,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
     
     # excluding the year to date figures
     df = df[df['week_ended'] != 'Year to date']
+    df = df[df['week_number'] != 'Weeks']
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
@@ -296,7 +298,7 @@ def WeeklyDeathsByLA_HB(registration_tab, occurrence_tab, year):
             'registration-or-occurrence', 'registrationoroccurrence'
             ]]
     
-    df_hb = df[df['geography type'] == 'Health Board'].drop(['geography type'], axis=1).rename(columns={
+    df_hb = df[df['geography type'] != 'Local Authority'].drop(['geography type'], axis=1).rename(columns={
             'area code':'health-board'
             }
     )
