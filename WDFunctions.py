@@ -8,6 +8,7 @@ Created on Thu May  7 09:52:28 2020
 from databaker.framework import *
 from databakerUtils.writers import v4Writer
 import pandas as pd
+import numpy as np
 from databakerUtils.v4Functions import v4Integers
 from databakerUtils.sparsityFunctions import SparsityFiller
 from datetime import datetime
@@ -312,15 +313,16 @@ def WeeklyDeathsByLA_HB(registration_tab, occurrence_tab, year):
     df_la['geography'] = df_la['admin-geography'].apply(AdminGeogLabels)
     
     PreviousWeekV4Checker(output_file_hb, df_hb)
-    PreviousWeekV4Checker(output_file_la, df_la)
-    
     df_hb.to_csv(output_file_hb, index=False)
-    df_la.to_csv(output_file_la, index=False)
-    
     SparsityFiller(output_file_hb)
+    
+    PreviousWeekV4Checker(output_file_la, df_la)
+    df_la.to_csv(output_file_la, index=False)
     SparsityFiller(output_file_la)
     
 def PreviousWeekV4Checker(file, new_df):
+    all_ok = True
+    
     df = pd.read_csv(file, dtype=str)
     
     print('Quick comparison check on {}'.format(file.split('/')[-1]))
@@ -338,32 +340,49 @@ def PreviousWeekV4Checker(file, new_df):
     
     if new_max_week_number - max_week_number != 1:
         if new_max_week_number == 1:
-            print('New v4 looks like week 1 of data, ignore if this is true')
+            print('New v4 looks like week 1 of data')
+            if df['time'].unique()[0] == new_df['time'].unique()[0]:
+                print('Looks like you need to update the year')
+                all_ok = False
         else:
-            raise Exception(
-                    'Difference between week numbers is not correct\n'
-                    'Previous week goes up to {}\n'
-                    'New week goes up to {}'.format(max_week_number, new_max_week_number)
+            print(
+                'Difference between week numbers is not correct\n'
+                'Previous week goes up to {}\n'
+                'New week goes up to {}'.format(max_week_number, new_max_week_number)
                     )
+            all_ok = False
     
     # check on the year of data
-    if df['time'].unique()[0] != new_df['time'].unique():
+    if df['time'].unique()[0] != new_df['time'].unique()[0]:
         print('Year of data does not match.. okay if this is week 1')
         
     # check the length of dimensions -> excluding week number
-    for col in [col for col in df_cols if 'week' not in col][::2]:
+    for col in [col for col in df_cols if 'week' not in col][::2]: # all 'code' columns except week number
         if df[col].unique().size != new_df[col].unique().size:
             if df[col].unique().size > new_df[col].unique().size:
                 print('Previous v4 has more options in {}'.format(col))
             else:
                 print('New v4 has more options in {}'.format(col))
+            all_ok = False
             
     # check length of v4's
     if len(new_df) < len(df):
         if new_max_week_number != 1:
-            raise Exception('New v4 is not longer than previous v4')
+            unsparse_length = np.prod([new_df[col].unique().size for col in new_df_cols][::2]) 
+            # ^ length of new df without sparsity
+            if unsparse_length < len(df):
+                print('New v4 is not longer than previous v4')
+                all_ok = False
+            elif unsparse_length == len(df):
+                print('New and previous v4 have same length, are week numbers the same')
+                all_ok = False
+    elif len(new_df) == len(df):
+                print('New and previous v4 have same length, are week numbers the same')
+                all_ok = False
             
-    print('All ok')
+    if all_ok:
+        print('All ok')
+        
             
 
     
