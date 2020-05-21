@@ -1483,6 +1483,90 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
 22,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
 1,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+33,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+2,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+34,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+3,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+70,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+9,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+35,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+12,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+3,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+4,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+1,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+9,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+4,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+2,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+30,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+1,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+31,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+32,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+9,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+6,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+42,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+32,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+43,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+12,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+16,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+19,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+1,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+31,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+35,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+11,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+3,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+26,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+27,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+3,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+23,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+56,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+17,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+4,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+22,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
+34,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,registrations,Registrations
+4,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,registrations,Registrations
+33,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,home,Home,registrations,Registrations
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,registrations,Registrations
+39,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,registrations,Registrations
+1,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,registrations,Registrations
+14,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,registrations,Registrations
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,registrations,Registrations
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
+17,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,registrations,Registrations
+1,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations
 36,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-1,Week 01,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 2,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-1,Week 01,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 39,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-1,Week 01,all-causes,All causes,home,Home,occurrences,Occurrences
@@ -1655,7 +1739,7 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 40,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,home,Home,occurrences,Occurrences
 5,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
-83,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+84,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-3,Week 03,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
@@ -2328,7 +2412,7 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 30,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,all-causes,All causes,home,Home,occurrences,Occurrences
 3,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 85,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
-1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+3,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-11,Week 11,covid-19,COVID 19,home,Home,occurrences,Occurrences
@@ -2551,7 +2635,7 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-13,Week 13,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 5,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-13,Week 13,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-13,Week 13,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-15,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-13,Week 13,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+16,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-13,Week 13,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-13,Week 13,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 34,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-13,Week 13,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-13,Week 13,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
@@ -2611,9 +2695,9 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000025,Hywel Dda University Health Board,week-14,Week 14,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 4,,2020,2020,W11000025,Hywel Dda University Health Board,week-14,Week 14,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000025,Hywel Dda University Health Board,week-14,Week 14,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-30,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+31,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 4,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-58,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,home,Home,occurrences,Occurrences
+59,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,home,Home,occurrences,Occurrences
 5,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 110,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-14,Week 14,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
@@ -2636,8 +2720,8 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 30,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-14,Week 14,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-14,Week 14,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 29,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,care-home,Care home,occurrences,Occurrences
-3,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-43,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,home,Home,occurrences,Occurrences
+4,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+44,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 71,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-14,Week 14,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
@@ -2725,11 +2809,11 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 85,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-33,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+34,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 7,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
-45,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+46,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-15,Week 15,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 29,,2020,2020,W11000031,Swansea Bay University Health Board,week-15,Week 15,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 4,,2020,2020,W11000031,Swansea Bay University Health Board,week-15,Week 15,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
@@ -2755,13 +2839,13 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 40,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-22,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+23,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 15,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 21,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-14,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+15,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
@@ -2781,13 +2865,13 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000025,Hywel Dda University Health Board,week-16,Week 16,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 65,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-35,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,home,Home,occurrences,Occurrences
+37,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,home,Home,occurrences,Occurrences
 2,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 82,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 28,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
-3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,home,Home,occurrences,Occurrences
+4,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 50,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-16,Week 16,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
@@ -2803,13 +2887,13 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 51,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-16,Week 16,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-16,Week 16,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-47,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+48,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 4,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 46,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 82,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-31,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+32,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 1,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 6,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
@@ -2865,15 +2949,15 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000025,Hywel Dda University Health Board,week-17,Week 17,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 49,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-43,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,home,Home,occurrences,Occurrences
+45,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,home,Home,occurrences,Occurrences
 3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
-71,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+72,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 19,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 4,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
-37,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+38,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-17,Week 17,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 53,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-17,Week 17,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-17,Week 17,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
@@ -2889,7 +2973,7 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-17,Week 17,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 51,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 1,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-41,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,home,Home,occurrences,Occurrences
+42,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 58,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-17,Week 17,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
@@ -2911,13 +2995,13 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000031,Swansea Bay University Health Board,week-17,Week 17,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 39,,2020,2020,W11000031,Swansea Bay University Health Board,week-17,Week 17,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 2,,2020,2020,W11000031,Swansea Bay University Health Board,week-17,Week 17,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-58,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+60,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 2,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-36,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+37,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 6,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 85,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-7,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+8,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
@@ -2925,17 +3009,17 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 18,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 2,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-11,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+12,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 7,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-5,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+6,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 3,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000024,Powys Teaching Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-32,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+33,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 1,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
 28,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
@@ -2948,12 +3032,12 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 11,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000025,Hywel Dda University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 38,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
-1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-27,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+2,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+32,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 2,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
-53,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+56,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-13,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+15,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 2,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
@@ -2961,23 +3045,23 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 35,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-25,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+27,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
-47,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+50,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 17,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 2,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
-29,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+31,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-32,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+34,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 2,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-24,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+26,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
-67,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+68,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 1,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-12,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+14,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 4,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
@@ -2985,16 +3069,100 @@ v4_1,Data Marking,calendar-years,time,health-board,geography,week-number,week,ca
 0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 37,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,care-home,Care home,occurrences,Occurrences
 3,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
-26,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
+29,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
 45,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
 2,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
-15,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+16,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
 0,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
 2,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,home,Home,occurrences,Occurrences
 0,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
 19,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
 2,,2020,2020,W11000031,Swansea Bay University Health Board,week-18,Week 18,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+29,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+40,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+2,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+76,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+2,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+8,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+31,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+1,,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+14,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+2,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+1,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+16,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+6,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+2,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000024,Powys Teaching Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+33,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+1,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+36,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+36,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+8,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+7,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000025,Hywel Dda University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+38,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+3,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+28,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+5,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+49,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+11,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+1,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+13,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000028,Aneurin Bevan University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+20,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+1,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+32,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+1,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+46,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+11,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+3,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+30,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000029,Cardiff and Vale University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+22,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+3,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+19,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+56,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+1,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+9,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+3,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+23,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000030,Cwm Taf Morgannwg University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+36,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,elsewhere,Elsewhere,occurrences,Occurrences
+25,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,hospice,Hospice,occurrences,Occurrences
+37,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,all-causes,All causes,other-communal-establishment,Other communal establishment,occurrences,Occurrences
+12,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,care-home,Care home,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,elsewhere,Elsewhere,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,home,Home,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,hospice,Hospice,occurrences,Occurrences
+16,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,hospital,Hospital,occurrences,Occurrences
+0,,2020,2020,W11000031,Swansea Bay University Health Board,week-19,Week 19,covid-19,COVID 19,other-communal-establishment,Other communal establishment,occurrences,Occurrences
 ,.,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,elsewhere,Elsewhere,registrations,Registrations
 ,.,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,hospice,Hospice,registrations,Registrations
 ,.,2020,2020,W11000023,Betsi Cadwaladr University Health Board,week-16,Week 16,covid-19,COVID 19,other-communal-establishment,Other communal establishment,registrations,Registrations

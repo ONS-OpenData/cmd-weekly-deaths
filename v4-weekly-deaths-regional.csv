@@ -17,6 +17,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 22351,2020,2020,K04000001,England and Wales,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 21997,2020,2020,K04000001,England and Wales,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 17953,2020,2020,K04000001,England and Wales,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+12657,2020,2020,K04000001,England and Wales,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 673,2020,2020,E12000001,North East,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 707,2020,2020,E12000001,North East,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 647,2020,2020,E12000001,North East,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -35,6 +36,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1155,2020,2020,E12000001,North East,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 1103,2020,2020,E12000001,North East,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 922,2020,2020,E12000001,North East,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+769,2020,2020,E12000001,North East,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1806,2020,2020,E12000002,North West,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1932,2020,2020,E12000002,North West,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1696,2020,2020,E12000002,North West,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -53,6 +55,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 3195,2020,2020,E12000002,North West,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 3109,2020,2020,E12000002,North West,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 2503,2020,2020,E12000002,North West,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1790,2020,2020,E12000002,North West,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1240,2020,2020,E12000003,Yorkshire and The Humber,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1339,2020,2020,E12000003,Yorkshire and The Humber,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1278,2020,2020,E12000003,Yorkshire and The Humber,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -71,6 +74,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1960,2020,2020,E12000003,Yorkshire and The Humber,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 2095,2020,2020,E12000003,Yorkshire and The Humber,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1844,2020,2020,E12000003,Yorkshire and The Humber,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1328,2020,2020,E12000003,Yorkshire and The Humber,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1060,2020,2020,E12000004,East Midlands,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1195,2020,2020,E12000004,East Midlands,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1106,2020,2020,E12000004,East Midlands,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -89,6 +93,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1632,2020,2020,E12000004,East Midlands,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 1711,2020,2020,E12000004,East Midlands,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1418,2020,2020,E12000004,East Midlands,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1094,2020,2020,E12000004,East Midlands,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1349,2020,2020,E12000005,West Midlands,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1450,2020,2020,E12000005,West Midlands,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1407,2020,2020,E12000005,West Midlands,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -107,6 +112,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 2536,2020,2020,E12000005,West Midlands,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 2481,2020,2020,E12000005,West Midlands,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1975,2020,2020,E12000005,West Midlands,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1326,2020,2020,E12000005,West Midlands,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1162,2020,2020,E12000006,East of England,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1573,2020,2020,E12000006,East of England,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1457,2020,2020,E12000006,East of England,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -125,6 +131,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 2466,2020,2020,E12000006,East of England,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 2299,2020,2020,E12000006,East of England,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1982,2020,2020,E12000006,East of England,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1321,2020,2020,E12000006,East of England,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1113,2020,2020,E12000007,London,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1272,2020,2020,E12000007,London,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1073,2020,2020,E12000007,London,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -143,6 +150,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 3275,2020,2020,E12000007,London,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 2785,2020,2020,E12000007,London,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1953,2020,2020,E12000007,London,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1213,2020,2020,E12000007,London,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1814,2020,2020,E12000008,South East,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 2132,2020,2020,E12000008,South East,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 2064,2020,2020,E12000008,South East,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -161,6 +169,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 3084,2020,2020,E12000008,South East,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 3334,2020,2020,E12000008,South East,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 2853,2020,2020,E12000008,South East,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1887,2020,2020,E12000008,South East,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 1225,2020,2020,E12000009,South West,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 1487,2020,2020,E12000009,South West,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 1466,2020,2020,E12000009,South West,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -179,6 +188,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1854,2020,2020,E12000009,South West,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 1924,2020,2020,E12000009,South West,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 1554,2020,2020,E12000009,South West,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+1218,2020,2020,E12000009,South West,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 787,2020,2020,W92000004,Wales,week-1,Week 01 ending 03-Jan-20,total-registered-deaths,Total registered deaths
 939,2020,2020,W92000004,Wales,week-2,Week 02 ending 10-Jan-20,total-registered-deaths,Total registered deaths
 767,2020,2020,W92000004,Wales,week-3,Week 03 ending 17-Jan-20,total-registered-deaths,Total registered deaths
@@ -197,6 +207,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1169,2020,2020,W92000004,Wales,week-16,Week 16 ending 17-Apr-20,total-registered-deaths,Total registered deaths
 1124,2020,2020,W92000004,Wales,week-17,Week 17 ending 24-Apr-20,total-registered-deaths,Total registered deaths
 929,2020,2020,W92000004,Wales,week-18,Week 18 ending 01-May-20,total-registered-deaths,Total registered deaths
+692,2020,2020,W92000004,Wales,week-19,Week 19 ending 08-May-20,total-registered-deaths,Total registered deaths
 0,2020,2020,K04000001,England and Wales,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,K04000001,England and Wales,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,K04000001,England and Wales,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -215,6 +226,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 8758,2020,2020,K04000001,England and Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 8237,2020,2020,K04000001,England and Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 6035,2020,2020,K04000001,England and Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+3930,2020,2020,K04000001,England and Wales,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000001,North East,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000001,North East,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000001,North East,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -233,6 +245,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 475,2020,2020,E12000001,North East,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 419,2020,2020,E12000001,North East,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 316,2020,2020,E12000001,North East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+271,2020,2020,E12000001,North East,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000002,North West,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000002,North West,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000002,North West,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -251,6 +264,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1350,2020,2020,E12000002,North West,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 1207,2020,2020,E12000002,North West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 910,2020,2020,E12000002,North West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+597,2020,2020,E12000002,North West,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000003,Yorkshire and The Humber,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000003,Yorkshire and The Humber,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000003,Yorkshire and The Humber,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -269,6 +283,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 690,2020,2020,E12000003,Yorkshire and The Humber,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 755,2020,2020,E12000003,Yorkshire and The Humber,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 647,2020,2020,E12000003,Yorkshire and The Humber,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+432,2020,2020,E12000003,Yorkshire and The Humber,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000004,East Midlands,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000004,East Midlands,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000004,East Midlands,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -287,6 +302,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 558,2020,2020,E12000004,East Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 562,2020,2020,E12000004,East Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 438,2020,2020,E12000004,East Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+334,2020,2020,E12000004,East Midlands,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000005,West Midlands,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000005,West Midlands,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000005,West Midlands,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -305,6 +321,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 999,2020,2020,E12000005,West Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 880,2020,2020,E12000005,West Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 651,2020,2020,E12000005,West Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+443,2020,2020,E12000005,West Midlands,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000006,East of England,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000006,East of England,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000006,East of England,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -323,6 +340,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 835,2020,2020,E12000006,East of England,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 814,2020,2020,E12000006,East of England,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 631,2020,2020,E12000006,East of England,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+373,2020,2020,E12000006,East of England,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000007,London,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000007,London,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000007,London,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -341,6 +359,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1818,2020,2020,E12000007,London,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 1406,2020,2020,E12000007,London,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 785,2020,2020,E12000007,London,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+439,2020,2020,E12000007,London,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000008,South East,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000008,South East,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000008,South East,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -359,6 +378,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1109,2020,2020,E12000008,South East,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 1232,2020,2020,E12000008,South East,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 966,2020,2020,E12000008,South East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+551,2020,2020,E12000008,South East,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000009,South West,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000009,South West,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,E12000009,South West,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -377,6 +397,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 501,2020,2020,E12000009,South West,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 531,2020,2020,E12000009,South West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 404,2020,2020,E12000009,South West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+276,2020,2020,E12000009,South West,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,W92000004,Wales,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,W92000004,Wales,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,W92000004,Wales,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
@@ -395,6 +416,7 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 409,2020,2020,W92000004,Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 413,2020,2020,W92000004,Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 281,2020,2020,W92000004,Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
+211,2020,2020,W92000004,Wales,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-registrations,Deaths involving COVID-19: registrations
 0,2020,2020,K04000001,England and Wales,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,K04000001,England and Wales,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,K04000001,England and Wales,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -407,12 +429,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 5,2020,2020,K04000001,England and Wales,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 41,2020,2020,K04000001,England and Wales,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 397,2020,2020,K04000001,England and Wales,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1838,2020,2020,K04000001,England and Wales,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-5079,2020,2020,K04000001,England and Wales,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-8073,2020,2020,K04000001,England and Wales,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-8121,2020,2020,K04000001,England and Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-6746,2020,2020,K04000001,England and Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-4744,2020,2020,K04000001,England and Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1851,2020,2020,K04000001,England and Wales,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+5109,2020,2020,K04000001,England and Wales,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+8104,2020,2020,K04000001,England and Wales,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+8152,2020,2020,K04000001,England and Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+6790,2020,2020,K04000001,England and Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+5048,2020,2020,K04000001,England and Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+3574,2020,2020,K04000001,England and Wales,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000001,North East,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000001,North East,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000001,North East,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -430,7 +453,8 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 405,2020,2020,E12000001,North East,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 397,2020,2020,E12000001,North East,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 361,2020,2020,E12000001,North East,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-318,2020,2020,E12000001,North East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+324,2020,2020,E12000001,North East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+273,2020,2020,E12000001,North East,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000002,North West,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000002,North West,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000002,North West,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -443,12 +467,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 0,2020,2020,E12000002,North West,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 5,2020,2020,E12000002,North West,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 35,2020,2020,E12000002,North West,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-165,2020,2020,E12000002,North West,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-637,2020,2020,E12000002,North West,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1093,2020,2020,E12000002,North West,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+166,2020,2020,E12000002,North West,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+642,2020,2020,E12000002,North West,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1096,2020,2020,E12000002,North West,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 1317,2020,2020,E12000002,North West,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1077,2020,2020,E12000002,North West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-735,2020,2020,E12000002,North West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1080,2020,2020,E12000002,North West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+764,2020,2020,E12000002,North West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+624,2020,2020,E12000002,North West,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000003,Yorkshire and The Humber,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000003,Yorkshire and The Humber,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000003,Yorkshire and The Humber,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -461,12 +486,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 0,2020,2020,E12000003,Yorkshire and The Humber,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000003,Yorkshire and The Humber,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 11,2020,2020,E12000003,Yorkshire and The Humber,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-59,2020,2020,E12000003,Yorkshire and The Humber,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-285,2020,2020,E12000003,Yorkshire and The Humber,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-590,2020,2020,E12000003,Yorkshire and The Humber,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-679,2020,2020,E12000003,Yorkshire and The Humber,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-672,2020,2020,E12000003,Yorkshire and The Humber,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-541,2020,2020,E12000003,Yorkshire and The Humber,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+60,2020,2020,E12000003,Yorkshire and The Humber,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+286,2020,2020,E12000003,Yorkshire and The Humber,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+591,2020,2020,E12000003,Yorkshire and The Humber,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+681,2020,2020,E12000003,Yorkshire and The Humber,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+676,2020,2020,E12000003,Yorkshire and The Humber,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+573,2020,2020,E12000003,Yorkshire and The Humber,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+414,2020,2020,E12000003,Yorkshire and The Humber,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000004,East Midlands,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000004,East Midlands,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000004,East Midlands,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -479,12 +505,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 0,2020,2020,E12000004,East Midlands,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 2,2020,2020,E12000004,East Midlands,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 19,2020,2020,E12000004,East Midlands,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-94,2020,2020,E12000004,East Midlands,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+95,2020,2020,E12000004,East Midlands,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 289,2020,2020,E12000004,East Midlands,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-535,2020,2020,E12000004,East Midlands,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-553,2020,2020,E12000004,East Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-472,2020,2020,E12000004,East Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-378,2020,2020,E12000004,East Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+537,2020,2020,E12000004,East Midlands,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+555,2020,2020,E12000004,East Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+477,2020,2020,E12000004,East Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+409,2020,2020,E12000004,East Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+291,2020,2020,E12000004,East Midlands,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000005,West Midlands,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000005,West Midlands,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000005,West Midlands,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -497,12 +524,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 0,2020,2020,E12000005,West Midlands,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 10,2020,2020,E12000005,West Midlands,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 57,2020,2020,E12000005,West Midlands,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-248,2020,2020,E12000005,West Midlands,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-705,2020,2020,E12000005,West Midlands,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-879,2020,2020,E12000005,West Midlands,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-889,2020,2020,E12000005,West Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-714,2020,2020,E12000005,West Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-515,2020,2020,E12000005,West Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+252,2020,2020,E12000005,West Midlands,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+716,2020,2020,E12000005,West Midlands,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+891,2020,2020,E12000005,West Midlands,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+893,2020,2020,E12000005,West Midlands,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+718,2020,2020,E12000005,West Midlands,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+549,2020,2020,E12000005,West Midlands,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+393,2020,2020,E12000005,West Midlands,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000006,East of England,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000006,East of England,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000006,East of England,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -515,12 +543,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1,2020,2020,E12000006,East of England,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 3,2020,2020,E12000006,East of England,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 13,2020,2020,E12000006,East of England,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-146,2020,2020,E12000006,East of England,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-473,2020,2020,E12000006,East of England,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-740,2020,2020,E12000006,East of England,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-826,2020,2020,E12000006,East of England,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-652,2020,2020,E12000006,East of England,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-480,2020,2020,E12000006,East of England,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+147,2020,2020,E12000006,East of England,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+479,2020,2020,E12000006,East of England,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+742,2020,2020,E12000006,East of England,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+828,2020,2020,E12000006,East of England,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+656,2020,2020,E12000006,East of England,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+530,2020,2020,E12000006,East of England,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+322,2020,2020,E12000006,East of England,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000007,London,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000007,London,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000007,London,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -533,12 +562,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 2,2020,2020,E12000007,London,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 17,2020,2020,E12000007,London,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 163,2020,2020,E12000007,London,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-707,2020,2020,E12000007,London,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1475,2020,2020,E12000007,London,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1916,2020,2020,E12000007,London,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1456,2020,2020,E12000007,London,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-947,2020,2020,E12000007,London,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-474,2020,2020,E12000007,London,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+711,2020,2020,E12000007,London,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1480,2020,2020,E12000007,London,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1921,2020,2020,E12000007,London,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1467,2020,2020,E12000007,London,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+959,2020,2020,E12000007,London,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+504,2020,2020,E12000007,London,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+352,2020,2020,E12000007,London,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000008,South East,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000008,South East,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000008,South East,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -551,12 +581,13 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 2,2020,2020,E12000008,South East,week-10,Week 10 ending 06-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 3,2020,2020,E12000008,South East,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 63,2020,2020,E12000008,South East,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-237,2020,2020,E12000008,South East,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-574,2020,2020,E12000008,South East,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1076,2020,2020,E12000008,South East,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1103,2020,2020,E12000008,South East,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-1050,2020,2020,E12000008,South East,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-701,2020,2020,E12000008,South East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+239,2020,2020,E12000008,South East,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+575,2020,2020,E12000008,South East,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1079,2020,2020,E12000008,South East,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1110,2020,2020,E12000008,South East,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+1061,2020,2020,E12000008,South East,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+768,2020,2020,E12000008,South East,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+456,2020,2020,E12000008,South East,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000009,South West,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000009,South West,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,E12000009,South West,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -570,11 +601,12 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 1,2020,2020,E12000009,South West,week-11,Week 11 ending 13-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 15,2020,2020,E12000009,South West,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 61,2020,2020,E12000009,South West,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-223,2020,2020,E12000009,South West,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-445,2020,2020,E12000009,South West,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-481,2020,2020,E12000009,South West,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-452,2020,2020,E12000009,South West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-357,2020,2020,E12000009,South West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+224,2020,2020,E12000009,South West,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+447,2020,2020,E12000009,South West,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+482,2020,2020,E12000009,South West,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+453,2020,2020,E12000009,South West,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+373,2020,2020,E12000009,South West,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+250,2020,2020,E12000009,South West,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,W92000004,Wales,week-1,Week 01 ending 03-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,W92000004,Wales,week-2,Week 02 ending 10-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 0,2020,2020,W92000004,Wales,week-3,Week 03 ending 17-Jan-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
@@ -589,7 +621,8 @@ V4_0,calendar-years,time,admin-geography,geography,week-number,week,recorded-dea
 15,2020,2020,W92000004,Wales,week-12,Week 12 ending 20-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 72,2020,2020,W92000004,Wales,week-13,Week 13 ending 27-Mar-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
 189,2020,2020,W92000004,Wales,week-14,Week 14 ending 03-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-381,2020,2020,W92000004,Wales,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-402,2020,2020,W92000004,Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-340,2020,2020,W92000004,Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
-242,2020,2020,W92000004,Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+383,2020,2020,W92000004,Wales,week-15,Week 15 ending 10-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+405,2020,2020,W92000004,Wales,week-16,Week 16 ending 17-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+341,2020,2020,W92000004,Wales,week-17,Week 17 ending 24-Apr-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+251,2020,2020,W92000004,Wales,week-18,Week 18 ending 01-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
+196,2020,2020,W92000004,Wales,week-19,Week 19 ending 08-May-20,deaths-involving-covid-19-occurrences,Deaths involving COVID-19: occurrences
