@@ -71,7 +71,7 @@ def DeathType(value):
     else:
         return 'Total registered deaths'
 
-url = 'https://api.beta.ons.gov.uk/v1/code-lists/admin-geography/editions/one-off/codes'
+url = 'https://api.beta.ons.gov.uk/v1/code-lists/administrative-geography/editions/one-off/codes'
 whole_dict = requests.get(url).json()
 admin_dict = {}
 for item in whole_dict['items']:
@@ -89,6 +89,19 @@ def TotalGeog(value):
         return False
     else:
         return True
+
+def RemoveYTD(value):
+    # returns false for any YTD figures
+    if 'week' in value.lower():
+        return False
+    elif 'year to date' in value.lower():
+        return False
+    else:
+        try:
+            float(value)
+            return True
+        except:
+            raise Exception('{} not a week number'.format(value))
 
 def WeeklyDeathsByRegion(source_tabs):
     output_file = 'v4-weekly-deaths-regional.csv'
@@ -140,8 +153,7 @@ def WeeklyDeathsByRegion(source_tabs):
     df['Geography'] = df['Geography_codelist'].apply(AdminGeogLabels)
     
     # excluding the year to date figures
-    df = df[df['week_ended'] != 'Year to date']
-    df = df[df['week_number'] != 'Weeks']
+    df = df[df['week_number'].apply(RemoveYTD)]
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
@@ -154,13 +166,13 @@ def WeeklyDeathsByRegion(source_tabs):
     
     df = df.rename(columns = {
             'Time_codelist':'calendar-years',
-            'Time':'time',
-            'Geography_codelist':'admin-geography',
-            'Geography':'geography',
+            'Time':'Time',
+            'Geography_codelist':'administrative-geography',
+            'Geography':'Geography',
             'week_number_codelist':'week-number',
-            'week_number':'week',
+            'week_number':'Week',
             'death_type_codelist':'recorded-deaths',
-            'death_type':'deaths'
+            'death_type':'Deaths'
             }
         )
         
@@ -224,8 +236,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
     df['Geography'] = 'England and Wales'
     
     # excluding the year to date figures
-    df = df[df['week_ended'] != 'Year to date']
-    df = df[df['week_number'] != 'Weeks']
+    df = df[df['week_number'].apply(RemoveYTD)]
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
@@ -244,16 +255,17 @@ def WeeklyDeathsByAgeSex(source_tabs):
     
     df = df.rename(columns = {
             'Time_codelist':'calendar-years',
-            'Time':'time',
-            'Geography_codelist':'admin-geography',
-            'Geography':'geography',
+            'Time':'Time',
+            'Geography_codelist':'administrative-geography',
+            'Geography':'Geography',
             'week_number_codelist':'week-number',
-            'week_number':'week',
-            'sex_codelist':'ashe-sex',
+            'week_number':'Week',
+            'sex':'Sex',
+            'sex_codelist':'sex',
             'age_codelist':'age-groups',
-            'age':'agegroups',
+            'age':'AgeGroups',
             'death_type_codelist':'recorded-deaths',
-            'death_type':'deaths'
+            'death_type':'Deaths'
             }
         )
     
@@ -288,29 +300,31 @@ def WeeklyDeathsByLA_HB(registration_tab, occurrence_tab, year):
     
     df = df.rename(columns={
             'number of deaths':'v4_0',
-            'cause of death':'causeofdeath',
-            'place of death':'placeofdeath',
-            'week number':'week',
-            'area name':'geography'
+            'time':'Time',
+            'cause of death':'CauseOfDeath',
+            'place of death':'PlaceOfDeath',
+            'week number':'Week',
+            'area name':'Geography',
+            'registrationoroccurrence':'RegistrationOrOccurrence'
             }
         )
     
     df = df[[
-            'v4_0', 'calendar-years', 'time', 'area code', 'geography', 'geography type', 
-            'week-number', 'week', 'cause-of-death', 'causeofdeath', 'place-of-death', 'placeofdeath',
-            'registration-or-occurrence', 'registrationoroccurrence'
+            'v4_0', 'calendar-years', 'Time', 'area code', 'Geography', 'geography type', 
+            'week-number', 'Week', 'cause-of-death', 'CauseOfDeath', 'place-of-death', 'PlaceOfDeath',
+            'registration-or-occurrence', 'RegistrationOrOccurrence'
             ]]
     
     df_hb = df[df['geography type'] != 'Local Authority'].drop(['geography type'], axis=1).rename(columns={
-            'area code':'health-board'
+            'area code':'local-health-board'
             }
     )
     df_la = df[df['geography type'] == 'Local Authority'].drop(['geography type'], axis=1).rename(columns={
-            'area code':'admin-geography'
+            'area code':'administrative-geography'
             }
     )
 
-    df_la['geography'] = df_la['admin-geography'].apply(AdminGeogLabels)
+    df_la['Geography'] = df_la['administrative-geography'].apply(AdminGeogLabels)
     
     PreviousWeekV4Checker(output_file_hb, df_hb)
     df_hb.to_csv(output_file_hb, index=False)
@@ -341,7 +355,7 @@ def PreviousWeekV4Checker(file, new_df):
     if new_max_week_number - max_week_number != 1:
         if new_max_week_number == 1:
             print('New v4 looks like week 1 of data')
-            if df['time'].unique()[0] == new_df['time'].unique()[0]:
+            if df['Time'].unique()[0] == new_df['Time'].unique()[0]:
                 print('Looks like you need to update the year')
                 all_ok = False
         else:
@@ -353,11 +367,11 @@ def PreviousWeekV4Checker(file, new_df):
             all_ok = False
     
     # check on the year of data
-    if df['time'].unique()[0] != new_df['time'].unique()[0]:
+    if df['Time'].unique()[0] != new_df['Time'].unique()[0]:
         print('Year of data does not match.. okay if this is week 1')
         
     # check the length of dimensions -> excluding week number
-    for col in [col for col in df_cols if 'week' not in col][::2]: # all 'code' columns except week number
+    for col in [col for col in df_cols if 'Week' not in col][::2]: # all 'code' columns except week number
         if df[col].unique().size != new_df[col].unique().size:
             if df[col].unique().size > new_df[col].unique().size:
                 print('Previous v4 has more options in {}'.format(col))
