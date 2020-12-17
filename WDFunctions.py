@@ -371,7 +371,7 @@ def PreviousWeekV4Checker(file, new_df):
         print('Year of data does not match.. okay if this is week 1')
         
     # check the length of dimensions -> excluding week number
-    for col in [col for col in df_cols if 'Week' not in col][::2]: # all 'code' columns except week number
+    for col in [col for col in df_cols if 'week' not in col][::2]: # all 'code' columns except week number
         if df[col].unique().size != new_df[col].unique().size:
             if df[col].unique().size > new_df[col].unique().size:
                 print('Previous v4 has more options in {}'.format(col))
