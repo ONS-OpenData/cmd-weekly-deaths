@@ -50,7 +50,7 @@ def AgeCodes(value):
             '00-01':'0-1',
             '01-04':'1-4',
             '05-09':'5-9',
-            'All ages':'all'
+            'All ages':'all-ages'
             }
     return lookup.get(value, value)
 
@@ -371,7 +371,9 @@ def PreviousWeekV4Checker(file, new_df):
         print('Year of data does not match.. okay if this is week 1')
         
     # check the length of dimensions -> excluding week number
-    for col in [col for col in df_cols if 'week' not in col][::2]: # all 'code' columns except week number
+    for col in [col for col in df_cols][1::2]: # all 'code' columns except week number
+        if 'week' in col:
+            continue
         if df[col].unique().size != new_df[col].unique().size:
             if df[col].unique().size > new_df[col].unique().size:
                 print('Previous v4 has more options in {}'.format(col))
