@@ -157,7 +157,7 @@ def WeeklyDeathsByRegion(source_tabs):
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
-    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) + ' ending ' + df['week_ended'].apply(ExcelDateChange)
+    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) #+ ' ending ' + df['week_ended'].apply(ExcelDateChange)
     
     df['death_type'] = df['death_type'].apply(DeathType)
     df['death_type_codelist'] = df['death_type'].apply(Slugize)
@@ -240,7 +240,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
     
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
-    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) + ' ending ' + df['week_ended'].apply(ExcelDateChange)
+    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) #+ ' ending ' + df['week_ended'].apply(ExcelDateChange)
     
     df['sex'] = df['sex'].apply(SexLabels)
     df['sex_codelist'] = df['sex'].apply(lambda x: x.lower())
