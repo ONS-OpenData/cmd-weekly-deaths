@@ -72,7 +72,7 @@ def DeathType(value):
         return 'Total registered deaths'
 
 url = 'https://api.beta.ons.gov.uk/v1/code-lists/administrative-geography/editions/one-off/codes'
-whole_dict = requests.get(url).json()
+whole_dict = requests.get(url, verify=False).json()
 admin_dict = {}
 for item in whole_dict['items']:
     admin_dict.update({item['code']:item['label']})
