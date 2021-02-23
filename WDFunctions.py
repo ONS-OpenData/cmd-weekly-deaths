@@ -10,10 +10,24 @@ from databakerUtils.writers import v4Writer
 import pandas as pd
 from databakerUtils.v4Functions import v4Integers
 from databakerUtils.sparsityFunctions import SparsityFiller
+import io, requests, datetime
+
 
 def Slugize(value):
     new_value = value.replace(' ', '-').replace(':', '').lower()
     return new_value
+
+def YearExtractor(value):
+    # extracts the year from datetime
+    as_datetime = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+    year = datetime.datetime.strftime(as_datetime, '%Y')
+    return year
+
+def MonthExtractor(value):
+    # extracts the month from datetime
+    as_datetime = datetime.datetime.strptime(value, '%Y-%m-%d %H:%M:%S')
+    month = datetime.datetime.strftime(as_datetime, '%b')
+    return month
 
 def SexLabels(value):
     if value == None:
@@ -73,6 +87,12 @@ def TotalGeog(value):
         return False
     else:
         return True
+    
+def GeogLabelsCorrector(value):
+    if value == 'East':
+        return 'East of England'
+    else:
+        return value
 
 def WeeklyDeathsByRegion(source_tabs):
     file = 'v4-weekly-deaths-regional.csv'
@@ -88,8 +108,6 @@ def WeeklyDeathsByRegion(source_tabs):
     for tab in tabs:
         not_needed = tab.excel_ref('A').filter(contains_string('Footnotes:')).expand(DOWN).expand(RIGHT)
         
-        time = year_of_data
-        
         geography = tab.excel_ref('A').filter(contains_string('E120')).expand(DOWN).is_not_blank()
         geography -= not_needed
         geography |= tab.excel_ref('A9')
@@ -99,22 +117,24 @@ def WeeklyDeathsByRegion(source_tabs):
         week_number = tab.excel_ref('A').filter(contains_string('Week number')).fill(RIGHT).is_not_blank()
         # strange data marking in spreadsheet for week 53 2021
         unwanted_week_number = week_number.filter(contains_string('53 '))
-        if 'occurrences' in tab.name:
-            unwanted_week_number |= tab.excel_ref('BC5').expand(LEFT)
-            assert tab.excel_ref('BC5').value == 53, 'Data in occurences tab has moved'
         week_number -= unwanted_week_number
+        
+        time = week_number.shift(0, 1)
         
         death_type = tab.name
         
         obs = week_number.waffle(geography).is_not_blank()
         
         dimensions = [
-                HDimConst(TIME, time),
+                HDim(time, TIME, DIRECTLY, ABOVE),
                 HDim(geography, GEOG, DIRECTLY, LEFT),
                 HDim(geography_labels, 'geography_labels', DIRECTLY, LEFT),
                 HDim(week_number, 'week_number', DIRECTLY, ABOVE),
                 HDimConst('death_type', death_type)
                 ]
+        
+        for cell in dimensions[0].hbagset:
+            dimensions[0].AddCellValueOverride(cell, str(cell.value))
         
         conversionsegment = ConversionSegment(tab, dimensions, obs).topandas()
         conversionsegments.append(conversionsegment)
@@ -129,10 +149,19 @@ def WeeklyDeathsByRegion(source_tabs):
     df.loc[df['Geography_codelist'].apply(TotalGeog), 'Geography_codelist'] = 'K04000001'
     df.loc[df['geography_labels'] == '', 'geography_labels'] = 'England and Wales'
     df['Geography'] = df['geography_labels']
+    df['Geography'] = df['Geography'].apply(GeogLabelsCorrector)
     df = df.drop(['geography_labels', 'geography_labels_codelist'], axis=1)
     
     # excluding the year to date figures
     df = df[df['week_number'].apply(lambda x: 'week' not in x.lower())].reset_index(drop=True)
+    
+    # extracting year - makes adjustments if weeks and yars crossover
+    df['Time_codelist'] = df['Time'].apply(YearExtractor)
+    df['Month'] = df['Time'].apply(MonthExtractor)
+    df.loc[(df['week_number'].apply(lambda x: float(x)) < 6) & (df['Month'] == 'Dec'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) + 1))
+    df.loc[(df['week_number'].apply(lambda x: float(x)) > 50) & (df['Month'] == 'Jan'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) - 1))
+    df['Time'] = df['Time_codelist']
+    df = df.drop(['Month'], axis=1)
     
     # sorting week number
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
@@ -154,24 +183,24 @@ def WeeklyDeathsByRegion(source_tabs):
             }
         )
     
-    # v4 needs to be added to previous weeks v4
-    # only the latest weeks data to be added
-    latest_week_number = df[df['Deaths'] == 'Total registered deaths']
-    latest_week_number = latest_week_number['week-number'].unique()[-1]
+    # pull latest v4 from CMD
+    latest_df = Get_Latest_Version('weekly-deaths-region', 'covid-19')
     
-    df = df[df['week-number'] == latest_week_number]
+    # removed pre filled sparsity
+    latest_df = latest_df[latest_df['Data Marking'] != 'x']
+    latest_df = latest_df.rename(columns={'V4_1':'V4_0'}).drop(['Data Marking'], axis=1)
+    latest_df = latest_df.reset_index(drop=True)
     
-    df['Data Marking'] = None
-    df = df.rename(columns={'V4_0':'V4_1'})
-    df = df[['V4_1', 'Data Marking', 'calendar-years', 'Time', 'administrative-geography',
-       'Geography', 'week-number', 'Week', 'recorded-deaths', 'Deaths']]
+    # remove occurrences data - included in spreadsheet
+    latest_df = latest_df[latest_df['recorded-deaths'] != 'deaths-involving-covid-19-occurrences']
     
-    # read in previous v4
-    previous_df = pd.read_csv(file, dtype=str)
-    previous_df = previous_df[previous_df['Data Marking'] != 'x'] # removes any previous filled from SparsityFiller
+    # remove latest year data - included in spreadsheet
+    latest_df = latest_df[latest_df['Time'] != year_of_data]
+    
+    # combine latest version with new version
+    new_df = pd.concat([latest_df, df])
+    assert len(new_df) == len(new_df.drop_duplicates()), 'Weekly deaths by region has some duplicate data which it shouldnt'
 
-    new_df = pd.concat([previous_df, df]).drop_duplicates()
-    
     V4Checker(new_df, 'region')
     new_df.to_csv(file, index=False)
     SparsityFiller(file, 'x')
@@ -189,18 +218,15 @@ def WeeklyDeathsByAgeSex(source_tabs):
     conversionsegments = []
     for tab in tabs:
         regional_data = tab.excel_ref('A').filter(contains_string('E120')).expand(DOWN).expand(RIGHT)
-    
-        time = year_of_data
         
         geography = 'K04000001'
         
         week_number = tab.excel_ref('A').filter(contains_string('Week number')).fill(RIGHT).is_not_blank()
         # strange data marking in spreadsheet for week 53 2021
         unwanted_week_number = week_number.filter(contains_string('53 '))
-        if 'occurrences' in tab.name:
-            unwanted_week_number |= tab.excel_ref('BC5').expand(LEFT)
-            assert tab.excel_ref('BC5').value == 53, 'Data in occurences tab has moved'
         week_number -= unwanted_week_number
+        
+        time = week_number.shift(0, 1)
         
         sex = tab.excel_ref('B').filter(contains_string('Person')) |\
                 tab.excel_ref('B').filter(contains_string('People')) |\
@@ -220,13 +246,16 @@ def WeeklyDeathsByAgeSex(source_tabs):
         obs = week_number.waffle(age).is_not_blank()
         
         dimensions = [
-                HDimConst(TIME, time),
+                HDim(time, TIME, DIRECTLY, ABOVE),
                 HDimConst(GEOG, geography),
                 HDim(week_number, 'week_number', DIRECTLY, ABOVE),
                 HDim(sex, 'sex', CLOSEST, ABOVE),
                 HDim(age, 'age', DIRECTLY, LEFT),
                 HDimConst('death_type', death_type)
                 ]
+        
+        for cell in dimensions[0].hbagset:
+            dimensions[0].AddCellValueOverride(cell, str(cell.value))
         
         conversionsegment = ConversionSegment(tab, dimensions, obs).topandas()
         conversionsegments.append(conversionsegment)
@@ -241,6 +270,14 @@ def WeeklyDeathsByAgeSex(source_tabs):
     
     # excluding the year to date figures
     df = df[df['week_number'].apply(lambda x: 'week' not in x.lower())].reset_index(drop=True)
+    
+    # extracting year - makes adjustments if weeks and yars crossover
+    df['Time_codelist'] = df['Time'].apply(YearExtractor)
+    df['Month'] = df['Time'].apply(MonthExtractor)
+    df.loc[(df['week_number'].apply(lambda x: float(x)) < 6) & (df['Month'] == 'Dec'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) + 1))
+    df.loc[(df['week_number'].apply(lambda x: float(x)) > 50) & (df['Month'] == 'Jan'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) - 1))
+    df['Time'] = df['Time_codelist']
+    df = df.drop(['Month'], axis=1)
     
     # sorting week number
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
@@ -272,28 +309,25 @@ def WeeklyDeathsByAgeSex(source_tabs):
             }
         )
     
+    # pull latest v4 from CMD
+    latest_df = Get_Latest_Version('weekly-deaths-age-sex', 'covid-19')
     
+    # removed pre filled sparsity
+    latest_df = latest_df[latest_df['Data Marking'] != 'x']
+    latest_df = latest_df.rename(columns={'V4_1':'V4_0'}).drop(['Data Marking'], axis=1)
+    latest_df = latest_df.reset_index(drop=True)
     
-    # v4 needs to be added to previous weeks v4
-    # only the latest weeks data to be added
-    latest_week_number = df[df['Deaths'] == 'Total registered deaths']
-    latest_week_number = latest_week_number['week-number'].unique()[-1]
+    # remove occurrences data - included in spreadsheet
+    latest_df = latest_df[latest_df['recorded-deaths'] != 'deaths-involving-covid-19-occurrences']
     
-    df = df[df['week-number'] == latest_week_number]
+    # remove latest year data - included in spreadsheet
+    latest_df = latest_df[latest_df['Time'] != year_of_data]
     
-    df['Data Marking'] = None
-    df = df.rename(columns={'V4_0':'V4_1'})
-    df = df[['V4_1', 'Data Marking', 'calendar-years', 'Time', 'administrative-geography',
-       'Geography', 'week-number', 'Week', 'sex', 'Sex', 'age-groups',
-       'AgeGroups', 'recorded-deaths', 'Deaths']]
+    # combine latest version with new version
+    new_df = pd.concat([latest_df, df])
+    assert len(new_df) == len(new_df.drop_duplicates()), 'Weekly deaths by age sex has some duplicate data which it shouldnt'
     
-    # read in previous v4
-    previous_df = pd.read_csv(file, dtype=str)
-    previous_df = previous_df[previous_df['Data Marking'] != 'x'] # removes any previous filled from SparsityFiller
-
-    new_df = pd.concat([previous_df, df]).drop_duplicates()
-    
-    V4Checker(new_df, 'age&sex')
+    V4Checker(new_df, 'age-sex')
     new_df.to_csv(file, index=False)
     SparsityFiller(file, 'x')
 
@@ -529,26 +563,24 @@ def V4Checker(v4, dataset):
             raise Exception('V4Checker on {} data - there are a different number of registrations and occurences'.format(dataset))
         
     print('{} is ok'.format(dataset))
+    
 
+def Get_Latest_Version(dataset, edition):
+    '''
+    Pulls the latest v4 from CMD for a given dataset and edition
+    '''
+    editions_url = 'https://api.beta.ons.gov.uk/v1/datasets/{}/editions/{}/versions'.format(dataset, edition)
+    items = requests.get(editions_url).json()['items']
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # get latest version number
+    latest_version_number = items[-1]['version']
+    assert latest_version_number == len(items), 'Get_Latest_Version for /{}/editions/{} - number of versions does not match latest version number'.format(dataset, edition)
+    # get latest version URL
+    url = editions_url + "/" + str(latest_version_number)
+    # get latest version data
+    latest_version = requests.get(url).json()
+    # decode data frame
+    file_location = requests.get(latest_version['downloads']['csv']['href'])
+    file_object = io.StringIO(file_location.content.decode('utf-8'))
+    df = pd.read_csv(file_object, dtype=str)
+    return df
