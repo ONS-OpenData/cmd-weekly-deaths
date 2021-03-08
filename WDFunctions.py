@@ -155,7 +155,7 @@ def WeeklyDeathsByRegion(source_tabs):
     # excluding the year to date figures
     df = df[df['week_number'].apply(lambda x: 'week' not in x.lower())].reset_index(drop=True)
     
-    # extracting year - makes adjustments if weeks and yars crossover
+    # extracting year - makes adjustments if weeks and years crossover
     df['Time_codelist'] = df['Time'].apply(YearExtractor)
     df['Month'] = df['Time'].apply(MonthExtractor)
     df.loc[(df['week_number'].apply(lambda x: float(x)) < 6) & (df['Month'] == 'Dec'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) + 1))
@@ -573,7 +573,7 @@ def Get_Latest_Version(dataset, edition):
     items = requests.get(editions_url).json()['items']
 
     # get latest version number
-    latest_version_number = items[-1]['version']
+    latest_version_number = items[0]['version']
     assert latest_version_number == len(items), 'Get_Latest_Version for /{}/editions/{} - number of versions does not match latest version number'.format(dataset, edition)
     # get latest version URL
     url = editions_url + "/" + str(latest_version_number)
