@@ -570,11 +570,11 @@ def Get_Latest_Version(dataset, edition):
     Pulls the latest v4 from CMD for a given dataset and edition
     '''
     editions_url = 'https://api.beta.ons.gov.uk/v1/datasets/{}/editions/{}/versions'.format(dataset, edition)
-    items = requests.get(editions_url).json()['items']
+    items = requests.get(editions_url + '?limit=1000').json()['items']
 
     # get latest version number
     latest_version_number = items[0]['version']
-    assert latest_version_number == len(items), 'Get_Latest_Version for /{}/editions/{} - number of versions does not match latest version number'.format(dataset, edition)
+    assert latest_version_number == len(items), 'Get_Latest_Version for /{}/editions/{} - number of versions ({}) does not match latest version number ({})'.format(dataset, edition, len(items), latest_version_number)
     # get latest version URL
     url = editions_url + "/" + str(latest_version_number)
     # get latest version data
