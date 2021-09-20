@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  7 09:52:28 2020
-
-@author: Jim
-"""
 from databaker.framework import *
 from databakerUtils.writers import v4Writer
 import pandas as pd
@@ -43,11 +36,11 @@ def SexLabels(value):
 
 def AgeLabels(value):
     if 'Under 1' in value or '<1' in value:
-        return '00-01'
-    elif value == '1-4':
-        return '01-04'
-    elif value == '5-9':
-        return '05-09'
+        return '0-1'
+    #elif value == '1-4':
+        #return '1-4'
+    #elif value == '5-9':
+        #return '5-9'
     elif 'all ages' in value.lower():
         return 'All ages'
     else:
@@ -62,11 +55,20 @@ def AgeCodes(value):
             }
     return lookup.get(value, value)
 
+def AgeCorrector(value):
+    # any old labels get fixed
+    lookup = {
+            '00-01':'0-1',
+            '01-04':'1-4',
+            '05-09':'5-9'
+            }
+    return lookup.get(value, value)
+
 def WeekNumberLabels(value):
     value = str(value)
     as_int = int(value)
     if as_int < 10:
-        new_value = '0' + value
+        new_value = str(as_int)
         return new_value
     else:
         return value
@@ -95,7 +97,7 @@ def GeogLabelsCorrector(value):
         return value
 
 def WeeklyDeathsByRegion(source_tabs):
-    file = 'v4-weekly-deaths-regional.csv'
+    file = 'D:/v4-weekly-deaths-regional.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
@@ -166,7 +168,7 @@ def WeeklyDeathsByRegion(source_tabs):
     # sorting week number
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
-    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) 
+    df['week_number'] = 'Week ' + df['week_number'] 
     
     df['death_type'] = df['death_type'].apply(DeathType)
     df['death_type_codelist'] = df['death_type'].apply(Slugize)
@@ -206,7 +208,7 @@ def WeeklyDeathsByRegion(source_tabs):
     SparsityFiller(file, 'x')
 
 def WeeklyDeathsByAgeSex(source_tabs):
-    file = 'v4-weekly-deaths-age-sex.csv'
+    file = 'D:/v4-weekly-deaths-age-sex.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
@@ -271,7 +273,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
     # excluding the year to date figures
     df = df[df['week_number'].apply(lambda x: 'week' not in x.lower())].reset_index(drop=True)
     
-    # extracting year - makes adjustments if weeks and yars crossover
+    # extracting year - makes adjustments if weeks and years crossover
     df['Time_codelist'] = df['Time'].apply(YearExtractor)
     df['Month'] = df['Time'].apply(MonthExtractor)
     df.loc[(df['week_number'].apply(lambda x: float(x)) < 6) & (df['Month'] == 'Dec'), 'Time_codelist'] = df['Time_codelist'].apply(lambda x: str(int(x) + 1))
@@ -282,7 +284,7 @@ def WeeklyDeathsByAgeSex(source_tabs):
     # sorting week number
     df['week_number'] = df['week_number'].apply(lambda x: str(int(float(x))))
     df['week_number_codelist'] = 'week-' + df['week_number']
-    df['week_number'] = 'Week ' + df['week_number'].apply(WeekNumberLabels) 
+    df['week_number'] = 'Week ' + df['week_number']
     
     df['sex'] = df['sex'].apply(SexLabels)
     df['sex_codelist'] = df['sex'].apply(lambda x: x.lower())
@@ -323,6 +325,9 @@ def WeeklyDeathsByAgeSex(source_tabs):
     # remove latest year data - included in spreadsheet
     latest_df = latest_df[latest_df['Time'] != year_of_data]
     
+    # fix any incorrect age labels
+    latest_df['AgeGroups'] = latest_df['AgeGroups'].apply(AgeCorrector)
+    
     # combine latest version with new version
     new_df = pd.concat([latest_df, df])
     assert len(new_df) == len(new_df.drop_duplicates()), 'Weekly deaths by age sex has some duplicate data which it shouldnt'
@@ -333,8 +338,8 @@ def WeeklyDeathsByAgeSex(source_tabs):
 
 
 def WeeklyDeathsByLA_HB(registration_tabs, occurrence_tabs, year):
-    output_file_la = 'v4-weekly-deaths-local-authority-{}.csv'.format(year)
-    output_file_hb = 'v4-weekly-deaths-health-board-{}.csv'.format(year)
+    output_file_la = 'D:/v4-weekly-deaths-local-authority-{}.csv'.format(year)
+    output_file_hb = 'D:/v4-weekly-deaths-health-board-{}.csv'.format(year)
     
     year_of_data = year
     
@@ -498,7 +503,7 @@ def V4Checker(v4, dataset):
         
         # geography check - dont want to call api and too many codes to create a list
         # quick check by counting codes - a change would mean sparsity anyway
-        assert df['administrative-geography'].unique().size == 336, 'V4Checker on {} data - been a change to the number of geographies, should be 336 but there is {}'.format(dataset, df['administrative-geography'].unique().size)
+        #assert df['administrative-geography'].unique().size == 336, 'V4Checker on {} data - been a change to the number of geographies, should be 336 but there is {}'.format(dataset, df['administrative-geography'].unique().size)
         
         # week number check
         for code in df['week-number'].unique():
@@ -570,7 +575,7 @@ def Get_Latest_Version(dataset, edition):
     Pulls the latest v4 from CMD for a given dataset and edition
     '''
     editions_url = 'https://api.beta.ons.gov.uk/v1/datasets/{}/editions/{}/versions'.format(dataset, edition)
-    items = requests.get(editions_url + '?limit=1000').json()['items']
+    items = requests.get(editions_url + '?limit=1000', verify=False).json()['items']
 
     # get latest version number
     latest_version_number = items[0]['version']
@@ -578,9 +583,9 @@ def Get_Latest_Version(dataset, edition):
     # get latest version URL
     url = editions_url + "/" + str(latest_version_number)
     # get latest version data
-    latest_version = requests.get(url).json()
+    latest_version = requests.get(url, verify=False).json()
     # decode data frame
-    file_location = requests.get(latest_version['downloads']['csv']['href'])
+    file_location = requests.get(latest_version['downloads']['csv']['href'], verify=False)
     file_object = io.StringIO(file_location.content.decode('utf-8'))
     df = pd.read_csv(file_object, dtype=str)
     return df
