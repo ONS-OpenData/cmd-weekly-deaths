@@ -96,8 +96,12 @@ def GeogLabelsCorrector(value):
     else:
         return value
 
-def WeeklyDeathsByRegion(source_tabs):
-    file = 'v4-weekly-deaths-regional.csv'
+def WeeklyDeathsByRegion(source_tabs, **kwargs):
+    if 'output_location' in kwargs.keys():
+        location = kwargs['output_location'].strip('/')
+        output_file = f'{location}/v4-weekly-deaths-regional.csv'
+    else:
+        output_file = 'D:/v4-weekly-deaths-regional.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
@@ -205,11 +209,15 @@ def WeeklyDeathsByRegion(source_tabs):
     assert len(new_df) == len(new_df.drop_duplicates()), 'Weekly deaths by region has some duplicate data which it shouldnt'
 
     V4Checker(new_df, 'region')
-    new_df.to_csv(file, index=False)
-    SparsityFiller(file, 'x')
+    new_df.to_csv(output_file, index=False)
+    SparsityFiller(output_file, 'x')
 
-def WeeklyDeathsByAgeSex(source_tabs):
-    file = 'v4-weekly-deaths-age-sex.csv'
+def WeeklyDeathsByAgeSex(source_tabs, **kwargs):
+    if 'output_location' in kwargs.keys():
+        location = kwargs['output_location'].strip('/')
+        output_file = f'{location}/v4-weekly-deaths-age-sex.csv'
+    else:
+        output_file = 'D:/v4-weekly-deaths-age-sex.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
@@ -335,13 +343,18 @@ def WeeklyDeathsByAgeSex(source_tabs):
     assert len(new_df) == len(new_df.drop_duplicates()), 'Weekly deaths by age sex has some duplicate data which it shouldnt'
     
     V4Checker(new_df, 'age-sex')
-    new_df.to_csv(file, index=False)
-    SparsityFiller(file, 'x')
+    new_df.to_csv(output_file, index=False)
+    SparsityFiller(output_file, 'x')
 
 
-def WeeklyDeathsByLA_HB(registration_tabs, occurrence_tabs, year):
-    output_file_la = 'v4-weekly-deaths-local-authority-{}.csv'.format(year)
-    output_file_hb = 'v4-weekly-deaths-health-board-{}.csv'.format(year)
+def WeeklyDeathsByLA_HB(registration_tabs, occurrence_tabs, year, **kwargs):
+    if 'output_location' in kwargs.keys():
+        location = kwargs['output_location'].strip('/')
+        output_file_la = f'{location}/v4-weekly-deaths-local-authority-{year}.csv'
+        output_file_hb = f'{location}-v4-weekly-deaths-health-board-{year}.csv'
+    else:
+        output_file_la = 'D:/v4-weekly-deaths-local-authority-{}.csv'.format(year)
+        output_file_hb = 'D:/v4-weekly-deaths-health-board-{}.csv'.format(year)
     
     year_of_data = year
     
