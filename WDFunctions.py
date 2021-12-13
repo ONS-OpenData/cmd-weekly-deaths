@@ -3,7 +3,7 @@ from databakerUtils.writers import v4Writer
 import pandas as pd
 from databakerUtils.v4Functions import v4Integers
 from databakerUtils.sparsityFunctions import SparsityFiller
-import io, requests, datetime
+import io, requests, datetime, json, os
 
 
 def Slugize(value):
@@ -97,12 +97,13 @@ def GeogLabelsCorrector(value):
         return value
 
 def WeeklyDeathsByRegion(source_tabs):
-    file = 'D:/v4-weekly-deaths-regional.csv'
+    file = 'v4-weekly-deaths-regional.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
     tabs = [tab for tab in tabs if 'UK' not in tab.name]
     tabs = [tab for tab in tabs if 'cause' not in tab.name.lower()]
+    tabs = [tab for tab in tabs if 'excess' not in tab.name.lower()]
     
     year_of_data = tabs[0].name.split(' ')[-1]
     
@@ -208,12 +209,13 @@ def WeeklyDeathsByRegion(source_tabs):
     SparsityFiller(file, 'x')
 
 def WeeklyDeathsByAgeSex(source_tabs):
-    file = 'D:/v4-weekly-deaths-age-sex.csv'
+    file = 'v4-weekly-deaths-age-sex.csv'
     
     tabs = source_tabs
     tabs = [tab for tab in tabs if 'Weekly' in tab.name]
     tabs = [tab for tab in tabs if 'UK' not in tab.name]
     tabs = [tab for tab in tabs if 'cause' not in tab.name.lower()]
+    tabs = [tab for tab in tabs if 'excess' not in tab.name.lower()]
     
     year_of_data = tabs[0].name.split(' ')[-1]
     
@@ -338,8 +340,8 @@ def WeeklyDeathsByAgeSex(source_tabs):
 
 
 def WeeklyDeathsByLA_HB(registration_tabs, occurrence_tabs, year):
-    output_file_la = 'D:/v4-weekly-deaths-local-authority-{}.csv'.format(year)
-    output_file_hb = 'D:/v4-weekly-deaths-health-board-{}.csv'.format(year)
+    output_file_la = 'v4-weekly-deaths-local-authority-{}.csv'.format(year)
+    output_file_hb = 'v4-weekly-deaths-health-board-{}.csv'.format(year)
     
     year_of_data = year
     
@@ -589,3 +591,53 @@ def Get_Latest_Version(dataset, edition):
     file_object = io.StringIO(file_location.content.decode('utf-8'))
     df = pd.read_csv(file_object, dtype=str)
     return df
+
+
+def Get_Lastest_Metadata(dataset, edition):
+    """
+    Pulls latest csvw 
+    """
+    editions_url = 'https://api.beta.ons.gov.uk/v1/datasets/{}/editions/{}/versions'.format(dataset, edition)
+    items = requests.get(editions_url + '?limit=1000').json()['items']
+
+    # get latest version number
+    latest_version_number = items[0]['version']
+    assert latest_version_number == len(items), 'Get_Latest_Version for /{}/editions/{} - number of versions does not match latest version number'.format(dataset, edition)
+    # get latest version URL
+    url = editions_url + "/" + str(latest_version_number)
+    # get latest version data
+    latest_version = requests.get(url).json()
+    csvw_response = requests.get(latest_version['downloads']['csvw']['href'])
+    if csvw_response.status_code != 200:
+        return f"csvw download failed with a {csvw_response.status_code} error"
+    csvw_dict = json.loads(csvw_response.text)
+    #csvw_file_name = f"D:/{dataset}-{edition}-metadata.json"
+    csvw_file_name = f"{dataset}-{edition}-metadata.json"
+    with open(csvw_file_name, 'w') as f:
+        json.dump(csvw_dict, f)
+    return csvw_file_name
+
+
+def Delete_Metadata_Files(upload_dict):
+    '''
+    Deletes downloaded csvw to avoid a weekly build up
+    '''
+    for dataset in upload_dict:
+        metadata_file = upload_dict[dataset]['metadata_file']
+        os.remove(metadata_file)
+        
+        
+def Check_v4_Date(v4):
+    '''
+    Checks date v4 was created to make sure correct v4 is being used
+    '''
+    # date of v4 last modified
+    timestamp = os.path.getmtime(v4)
+    timestamp_as_datetime = datetime.datetime.fromtimestamp(timestamp)
+    v4_timestamp = datetime.datetime.strftime(timestamp_as_datetime, '%d-%m-%y')
+    # todays date
+    today_timestamp = datetime.datetime.strftime(datetime.datetime.now(), '%d-%m-%y')
+    # make sure they match
+    assert v4_timestamp == today_timestamp, f"Aborting.. {v4} was not created today, created on {v4_timestamp}, remove this check if this is acceptable"
+    
+    
