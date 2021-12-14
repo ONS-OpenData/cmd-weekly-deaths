@@ -611,7 +611,7 @@ def Get_Lastest_Metadata(dataset, edition):
     Pulls latest csvw 
     """
     editions_url = 'https://api.beta.ons.gov.uk/v1/datasets/{}/editions/{}/versions'.format(dataset, edition)
-    items = requests.get(editions_url + '?limit=1000').json()['items']
+    items = requests.get(editions_url + '?limit=1000', verify=False).json()['items']
 
     # get latest version number
     latest_version_number = items[0]['version']
@@ -619,8 +619,8 @@ def Get_Lastest_Metadata(dataset, edition):
     # get latest version URL
     url = editions_url + "/" + str(latest_version_number)
     # get latest version data
-    latest_version = requests.get(url).json()
-    csvw_response = requests.get(latest_version['downloads']['csvw']['href'])
+    latest_version = requests.get(url, verify=False).json()
+    csvw_response = requests.get(latest_version['downloads']['csvw']['href'], verify=False)
     if csvw_response.status_code != 200:
         return f"csvw download failed with a {csvw_response.status_code} error"
     csvw_dict = json.loads(csvw_response.text)
