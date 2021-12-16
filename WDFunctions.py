@@ -98,8 +98,11 @@ def GeogLabelsCorrector(value):
 
 def WeeklyDeathsByRegion(source_tabs, **kwargs):
     if 'output_location' in kwargs.keys():
-        location = kwargs['output_location'].strip('/')
-        output_file = f'{location}/v4-weekly-deaths-regional.csv'
+        if kwargs['output_location'] == ''
+            output_file = 'v4-weekly-deaths-regional.csv'
+        else:
+            location = kwargs['output_location'].strip('/')
+            output_file = f'{location}/v4-weekly-deaths-regional.csv'
     else:
         output_file = 'D:/v4-weekly-deaths-regional.csv'
     
@@ -214,8 +217,11 @@ def WeeklyDeathsByRegion(source_tabs, **kwargs):
 
 def WeeklyDeathsByAgeSex(source_tabs, **kwargs):
     if 'output_location' in kwargs.keys():
-        location = kwargs['output_location'].strip('/')
-        output_file = f'{location}/v4-weekly-deaths-age-sex.csv'
+        if kwargs['output_location'] == ''
+            output_file = 'v4-weekly-deaths-age-sex.csv'
+        else:
+            location = kwargs['output_location'].strip('/')
+            output_file = f'{location}/v4-weekly-deaths-age-sex.csv'
     else:
         output_file = 'D:/v4-weekly-deaths-age-sex.csv'
     
@@ -349,12 +355,16 @@ def WeeklyDeathsByAgeSex(source_tabs, **kwargs):
 
 def WeeklyDeathsByLA_HB(registration_tabs, occurrence_tabs, year, **kwargs):
     if 'output_location' in kwargs.keys():
-        location = kwargs['output_location'].strip('/')
-        output_file_la = f'{location}/v4-weekly-deaths-local-authority-{year}.csv'
-        output_file_hb = f'{location}-v4-weekly-deaths-health-board-{year}.csv'
+        if kwargs['output_location'] == '':
+            output_file_la = f'v4-weekly-deaths-local-authority-{year}.csv'
+            output_file_hb = f'v4-weekly-deaths-health-board-{year}.csv'
+        else:
+            location = kwargs['output_location'].strip('/')
+            output_file_la = f'{location}/v4-weekly-deaths-local-authority-{year}.csv'
+            output_file_hb = f'{location}-v4-weekly-deaths-health-board-{year}.csv'
     else:
-        output_file_la = 'D:/v4-weekly-deaths-local-authority-{}.csv'.format(year)
-        output_file_hb = 'D:/v4-weekly-deaths-health-board-{}.csv'.format(year)
+        output_file_la = f'D:/v4-weekly-deaths-local-authority-{year}.csv'
+        output_file_hb = f'D:/v4-weekly-deaths-health-board-{year}.csv'
     
     year_of_data = year
     

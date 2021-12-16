@@ -7,7 +7,7 @@ credentials = 'florence-details.json'
 year_of_data = '2021'
 
 location = 'weekly-deaths/*' # path name to directory of files, * for current directory
-files = glob.glob('*')
+files = glob.glob(location)
 
 file = [file for file in files if 'published' in file.lower()][0] #'publishedweek202020.xlsx'
 tabs = w.loadxlstabs(file)
