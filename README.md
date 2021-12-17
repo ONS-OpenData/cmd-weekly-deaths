@@ -10,7 +10,7 @@ Transform takes in 2 input spreadsheets, one file name contains 'published' and 
 The spreadsheets are either provided by the business area or can be obtained from the ONS website 
 https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard
 https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales
-Place the input files in your global directory or alternatively change the location variable in transform.ipynb to match the file location
+Place the input files in the same location as the notebook
 
 4 output files are created
 - v4-weekly-deaths-age-sex.csv 
